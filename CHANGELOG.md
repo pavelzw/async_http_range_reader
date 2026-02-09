@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.9.2](https://github.com/prefix-dev/async_http_range_reader/compare/v0.9.1...v0.9.2) - 2026-02-09
+
+### Other
+
+- Use `std::io::Error::other(_)` and declare MSRV 1.74 ([#25](https://github.com/prefix-dev/async_http_range_reader/pull/25))
+- Fix new clippy lints ([#27](https://github.com/prefix-dev/async_http_range_reader/pull/27))
+
 ## [0.9.1](https://github.com/prefix-dev/async_http_range_reader/compare/v0.9.0...v0.9.1) - 2024-11-12
 
 ### Other
